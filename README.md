@@ -1,4 +1,5 @@
 # Toon Shading Collection 二次元角色卡通渲染效果分析收集/速查手册/小百科
+# CN 
 
 ![CH00_01_战双角色渲染还原展示](imgs/CH00_01_ZhanShuang.jpg)
 
@@ -60,11 +61,41 @@
 
 …… （未完待续）
 
+# EN
 
+# Toon Shading Collection Analysis of (real time) 3D animation shading techniques / Quick Reference / Encyclopedia
 
+![CH00_01_战双角色渲染还原展示](imgs/CH00_01_ZhanShuang.jpg)
 
+![CH00_02_原神角色渲染还原展示](imgs/CH00_02_YuanShen.gif)
 
+*↑Recreated shading of widely known 2D-Style gamecharacters.... screenshots to show off*
 
+---
 
+The era of 2D-Style games on the domestic gaming market has begun. As graphics programmers, it's now the time to prepare for the upcoming changes.
+TN: 2D style as in: 3D mimicking 2D *illustration* more broadly, not just anime cellshading specificially. Domestic = Chinese.
 
+With information on cellshading being quite scattered, I often discover new tips and tricks with every article and all source code I read. Because of this I wanted to organize this information into a quick reference guide or mini-encyclopedia. Additionally, by comparing different approaches, I could come up with new takes of established methods or spark new ideas altogether.
 
+This repository is currently under development and hosted on GitHub. A Table of Contents with links to the respective topics will be created if possible. The links and Images will be using significant amounts of excerpts; links to references articles will be included in the attachments. This repository is only intended to share knowledge and __not__ for profit.
+
+If there are any errors or omissions, please feel free to correct them. It would be even better to find collaborators for this, as it's quite ardous to sort out alone.
+
+<br>
+
+------
+
+Rant: As a nerd, who has worked on some fan fiction, I always feel that anime style rendering doesn't neccessarily have to pursue a "unique" style. There is only a limited set of rendering techniques that may become popular (and go viral).
+
+<br>
+
+------
+
+## [(。・∀・)ノClick me to start reading](/EN)
+
+*The first draft of all planned chapters is effectively complete and is currently under revision.*
+
+If images can't be refreches, please wait and try again, or clone/download the repository to open it in a local markdown editor. I don't know why GitHub cannot refresh images QAQ...
+
+<br>
