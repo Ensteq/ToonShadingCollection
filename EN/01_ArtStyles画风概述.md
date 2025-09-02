@@ -4,7 +4,7 @@
 
 ![CH01_01_卡通渲染分类](../imgs/CH01_01_ToonShadingStyles.jpg)
 
-Cartoon/Anime-style rendering is a type of stylelized (or non-photorealistic rendering (NPR)), which favours artistic expression by emulating hand drawn art over physical accuracy. It's counterpart is PBR (physically based rendering) which attempts to be true to life.
+Toon-shading is a type of stylelized rendering (or non-photorealistic rendering (NPR)), which favours artistic expression by emulating hand drawn art. It's counterpart is PBR (physically based rendering) which attempts to simulate (or approximate) Light in the real world.
 
 Lets begin by categorizing different styles:
 
@@ -20,9 +20,10 @@ Example: "Team Fortress 2"
 
 Shading:
 
-- There is little shapedesign in the shading, it favours soft gradients which are closer to PBR rendering.
+- The light and shadow shapes prefer soft edges and gradients.
 - Highlights and Shadows are often exaggerated.
 - The style is heavily dependent on artist authored colors.
+TN: Soft edge = gradient. Hard edge = clear cutoff between shapes of color.
 
 Modelling:
 
@@ -54,16 +55,16 @@ Modeling:
 
 ------
 
-### Let's discus how to implement a painterly style
+### Discussing the Implementation for stylelized rendering
 
  <br>
 
-> As CGI technology develops, computer animation techniques are increasingly being applied to games and 3D animations. However, there are still many awkward inconsistencies in the visual presentation. This is due to the technical focus of (graphics) engineers, who often lack the knowledge and experience to understand what artists actually want to express. Instead, they simply focus on the technically implementation of the effects. As a result, while game visuals contain all the necessary elements, they fail to achieve the desired impact.
+> As CGI technology develops, computer animation techniques are increasingly being applied to games and 3D animations. However, there are still many awkward inconsistencies in the visual presentation. This is due to the technical focus of (graphics) engineers, who often lack the knowledge and experience to understand what artists actually want to express. Instead, they focus on the technical implementation of the effects. As a result, while game visuals contain all the necessary elements, they fail to achieve the desired emotional impact.
 >
-> To achive good results, graphics engineers need a solid understanding of comicbook (Manga) styles and Anime / Tv-Animation. Whereas knowledge in animation is more immediately useful than comics. With this in mind, we can look at different examples to understand how they create their appeal and then use computer graphics technologies to recreate them. This is in contrast to simply implementing surface level features while failing to capture the essence.
+> To achive good results, graphics engineers need a solid understanding of Art in Manga and Anime. However, knowledge in Anime is more immediately useful than Manga. With this in mind, we can look at different examples to understand how they create their appeal and then use computer graphics technologies to recreate them. This is in contrast to simply implementing surface level features while failing to capture the essence.
 >
 > Wheter it's Mangaka, a masterful artist or animation company, generally they all have strong styles which Fans immediately recognize, unlike the cookie-cutter cartoon rendering commonly present in recent games. at current date, there is a lot of room for improvement with many underdeveloped visual effects for anime style rendering.
->> TN: I am using Manga/mangaka and Anime over the more general terms of Comic and Animation as the text only discusses the eastern comic tradition.
+>> TN: I am using Manga/mangaka and Anime over the more general terms of Comic and Animation as the text discusses the eastern comic tradition.
 >
 > If you are working in the animation or games industry as an artist, consider how you express emotion through animation. How can 3D rendering produce the lines of the mouth? How to use lighting to create a strong Atmosphere? Does a retro color scheme with celshading still look appealing? Have you considered this approach during production?
 > 
@@ -73,9 +74,9 @@ Modeling:
 >
 > As photorealistic rendering technology develops and becomes more established, non-photorealistic rendering (NPR) also gains more attention. One of the most important styles is celshading. This style requires a comprehensive understanding of traditional cel animation as well as 3D technology. Pure technical expertise cannot produce a high quality cel shading effect.
 >
-> To achieve the highest quality possible it's not only important to master traditional art techniques, but also have experience with concept art, in-between drawings (or at least understanding the underlying principles) and a sense for composition and layout, but also able to utilize 3D rendering techniques to recreate the style faithfully while streamlining the workflow. Maintaining visual consistency using computer graphics this way is challenging.
+> To achieve the highest quality possible it's not only important to master traditional art techniques, but also have experience with concept art, in-between drawings (or at least understanding the underlying principles) and a sense for composition and layout, but also able to utilize 3D rendering techniques to recreate the style faithfully while streamlining the workflow. Maintaining visual consistency using computer graphics is challenging.
 >
-> In chinese and international forums, some core fans are averse to photorealistic artstyles and don't want a japanese pixar. This sentiment stems from the fact that achieving cel-shaded effects with 3D technology remains challenging.
+> In chinese and international forums, some core fans are averse to photorealistic artstyles and don't want a japanese pixar. This sentiment stems from the fact, that achieving cel-shaded effects with 3D technology remains challenging.
 >
 > An example where the artdirection collapsed can be seen in the 3D adaptation of "Berserk".
 >
@@ -93,55 +94,56 @@ Modeling:
 
 ------
 
-### 画风趋势探讨
+### Discussing Trends in Art-Styles
 
  <br>
 
-> 卡通渲染在动画和游戏中的制作思路是不同的，动画中相机经常是固定角度，可以去手动修正瑕疵，而游戏中的卡通渲染会更加注重在不同环境与角度下效果表现的合理性。
+> Productions for Animation work with a different methodology from Games. Animation often works with specific camera angles and manually adjusts the images to maximize the appeal and fix errors, where Games favour consistency accross different environments and viewing angles.
 >
-> 因为2D画面在3D画面中并不是完全成立的，所以在卡通渲染中各种trick就是难以避免的。同时PBR可能仍然是现在的大方向之一。
+> Handdrawn characters are often not consistent 3D objects. In order to recreate the appeal this inherent "brokenness" needs to be intentionally reintroduced. In the meantime, PBR remains one of the major trends. 
 >
-> 从2015年罪恶装备在GDC上分享卡通渲染的方法大现在，卡通渲染的发展非常迅速，有基于赛璐璐的动画还原，比如说《罪恶装备》，《赛马娘》这些，还有基于PBR的风格化，像是《鹿鸣》、《奇迹暖暖》，也有不那么PBR，但是使用了PBR制作，比如《碧兰幻想》《蓝色协议》等，再到更加风格化的探索，像是《破晓传说》。
+> Since Arc System Works shared it's toon rendering approach for Guilty Gear on GDC 2015, toon shading has developed very rapidly. There are productions attempting to recreate cel-shaded animation such as Guilty Gear or Uma Musume, stylelized PBR productions like Infinity Nikki or 鹿鸣(TN: Lumi? seems to be a CN only thing). There are also productions leaning more towards PBR like Granblue Fantasy, Blue Protocol and other explorations like Tales of Arise.
 >
 > ![CH01_07_GameArtStyles](../imgs/CH01_07_GameArtStyles.png)
+> (TL-BR 鹿鸣, GFL2: Excillium, Infinity Nikki, Granblue Fantasy Versus, ?, Guilty Gear Xrd, Tales of Arise, Scarlet Nexus, Genshin Impact, TLoZ: Breath of the wild/tears of the kingdom, uma musume.)
+> 
+> The ability to create distinct styles with 3D rendering is becoming stronger. For Toonshading, unlike PBR, there are no standards to compare to in order to judge it's quality. Toonshading heavily relies on modeling and texturing, as such artdirection is particularly important.
 >
-> 卡通渲染的风格表现力是越来越广，对于卡通渲染来说，不像PBR那样有标准流程和衡量准则，卡渲很大程度上会依赖于美术方面的造型和色彩，所以美术风格的处理在卡通宣传中是比较重要的。
->
-> 另外卡通渲染是人们主观审美与现实环境抽象的结合，不同人对卡通渲染概念理解不同，这就产生了各式各样的制作流程，不过还是有一定固定思路在其中的。然后我们就来看一下游戏开发者们为了好看的卡通渲染画面都做了哪些努力？
+> Additionally, toonshading combines the artists aesthetic preferences with an abstraction of the real world. Different artists have approaches to their art, resulting in a large variety in rendering styles. Even so, they still share some common elements. Let us take a closer look at what efforts gamedevelopers took to create high quality anime style visuals. 
 >
 > ![CH01_08_BasicToonShadingFeatures](../imgs/CH01_08_BasicToonShadingFeatures.png)
 >
-> 首先列一下概念，卡通渲染常见的有两个名称，就是Cel Shading和Toon Shading，Cel是赛璐璐celluloid的缩写，而Toon就是cartoon的简写。最简单的我们只需要阴影、描边和高光，就可以组合成具有卡通感的画面。
+> Lets first list the basic concepts. There are two common names for toonshading. Celshading as an abbrevation of Celulloid Shading and Toon from Cartoon Shading. The most basic type of Toonshading only needs outlines, hightlights and flat shapes for light and shadow. 
 >
-> 不过就像刚刚所说的，这些并不是必须的。随着卡通渲染的发展，卡通渲染这个概念在逐渐的泛化，在美术上有对应的形态和色彩表现，就可以有卡通风格的感觉了。
+> However, as mentioned before, strictly following this approach isn't necessarily required to create a stylelized/anime feel as styles in handdrawn art have also diversified. It's important to apply the underlying principles to create the desired appeal.
 >
 > <br>
 >
-> 美术原画们在做他们的设计的时候会画一个坐标轴，然后把他们的一些参考游戏放在上面。通过这个坐标轴来确定，他们做的东西到底是多少偏卡通，多少偏写实。
+> When the artists are creating their work, they place their reference images on a scale from stylelized to realistic, to determine how much they lean towards one or the other.
 >
-> 卡通渲染虽然有非常多的trick，实际上这些trick最终都是为了还原美术的原画效果。
+> Although there are many tricks in toon rendering, they are used to restore the unique effects of the original illustration. 
 >
 > ![CH01_09_ArtStyleAxis](../imgs/CH01_09_ArtStyleAxis.png)
 >
-> 构成画面感的几个要素——四个要素无论我们做赛璐璐风格的卡通渲染，还是做一些有一点写实风格的感动渲染，这四个要素应该都是通用的。
+> There are four elements universal to all variations of anime style art, regardless if they lean towards realistic or stylelized.
 >
 > ![CH01_10_CommonToonShadingFeatures](../imgs/CH01_10_CommonToonShadingFeatures.png)
 >
-> 首先是减少色阶的数量，我们可以看到随着色阶数量的减少，树木就变得越来越卡通了；
+> First is to reduce the number of unique colors. The fewer colors there are, the more carton-y the appeal.
 >
-> 其次是明暗色调分离，我们的美术同学比较喜欢给物体的亮面一个暖色调，然后给物体的暗面一个冷色调。通过明暗的色调对比，可以让这个物体看起来更加的卡通，光感会更好。
+> Secondly the separation of light and dark tones. Usually warm lights are paired with cold darks. By creating a strong contrast between these a more stylelized look can be achieved while also creating a stronger sense of light and dark.
 >
-> 然后是阴影的手绘控制，在日式的漫画里面，角色的脖子哪怕是处于受光状态，它也会显示为阴影。为了2D美术上的好看，阴影可能会跟我们3D模型的一些结构并不完全一致，那么这个时候需要我们对阴影有一些手绘方面的控制。
+> Thirdly, controlling shadows. In Manga, the neck of a character is often cast in shadow, even if it should be lit by placement of the lightsource. This is done to achieve an attractive aesthetic, even if it is at odds with the actual 3d form. To recreate this, we need manual control over shadows.
 >
-> 最后，描边也是卡通渲染里面比较重要的组成部分。
+> Lastly, lineart is important for the appeal of anime style rendering. 
 
-卡通渲染未来有几个方向可以继续推进（某鹅厂大佬个人观点）：
-
-> 一个是赛璐璐风格，可以往更加2D动画的方向考虑。可以忽略结构，对Mesh进行更加夸张的处理，来还原2D动画的效果。
+There are several directions that cartoon rendering can continue to advance in the future (personal opinion of a Goose Factory boss): TN: I really do not know how to properly translate "某鹅厂大佬个人观点" so have the literal meaning.
 >
-> 其次就是卡通渲染结合PBR表现材质效果，也是一个值得研究的方向。这块的话，大家各自用的方案也都不太一样，目前还没有出现一个统一的方案。但也正因如此，在未来是有很大发展空间的一个方向。
+> For one, lean into cel shaded anime style. Ignore the 3D structure and exaggerate the mesh deformations in order to recreate the 2D appeal.
 >
-> 其三，就是将动画摄影类的后期效果加入卡通渲染中，这个思路它有点类似于一个跨行业的借鉴。我们把另一个行业的经验和知识应用于游戏的卡通渲染里面，这是一块新的领域，也是有很大发展空间的。
+> Secondly, combinations of toon-shading and PBR in order to better define different materials are also worth exploring. Here approaches vary with no unified solutions dominating yet. However, because of this lack of uniformity this approach has the greatest potential in the future.
+>
+> Lastly, applying post production effects from anime to game rendering pipelines. This approach would be something of a cross industry collaboration, by applying knowledge and experience from one field to another. 
 
  <br>
 
