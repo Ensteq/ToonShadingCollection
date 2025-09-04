@@ -149,55 +149,55 @@ There are several directions that cartoon rendering can continue to advance in t
 
 ------
 
-### 画风选择探讨
+### Choosing a Style
 
-全文照抄大佬警世恒言，作为参考：
+Cited from here：
 
 > ![CH01_04_ToonShadingDeath](../imgs/CH01_04_ToonShadingDeath.jpg)
 >
->  之所以提出“赛璐璐已死”这样的暴论，当然不是“赛璐璐”这个风格有什么问题，而是因为单纯的赛璐璐风格在即时渲染方面已经到了一个再难提升表现力的程度，接下来要解决的每个问题都比较困难而且收效甚微。
+> "Cel-shading is dead" is not true because anything is wrong with the style in itself, but rather because rendering techniques aiming at pure Cel-Shading have reached a plateau, where subsequent investments will yield ever decreasing improvements to it's quality and expressiveness, while becoming more difficult to achieve.
 >
-> 在有米哈游这家财大气粗的公司存在的现况下，要在画面方面对它的产品产生竞争力，相同水平是不行的，还需要有比较大的视觉上的提升。而赛璐璐风格剩下的所有提升空间可能都不足以拉开足够的差距，这还是建立在对方止步不前的前提下。
+> With deep-pocketed companies like MiHoYo present on the market, competing in graphics means not only a large degree of polish, but also significant visual improvements. The space to the ceiling might not be enough to create a significant gap and this assumes the competition remains stagnant.
 >
-> 所以对于所有米哈游的竞争厂商来讲，单纯的赛璐璐确实已经死了。严格的说，即使是原神，其实也已经不是纯粹的赛璐璐了。这也证明死守赛璐璐路线基本死路一条。
+> So for all of MiHoYo's competitors, pure Cel-Shading is functionally dead. Strictly speaking, even MiHoYo's own work isn't pure cel-shading anymore. By extension, companies clinging to pure cel-shading are moving into a dead end.
 >
 > <br>
 >
->   #### **生路何在？**
+>   #### **How do we move forward？**
 >
-> NPR本身是一个巨大的体系，断然不是只有一种风格可供选择。
+> NPR is a big field with more solutions than cel-shading. 
 >
-> 但是作为一部商业作品，风格选择自然不能根据个人喜好，而应该考虑广泛接受度。那么实际就需要遵循下述标准：
+> However, for commercial projects, the style cannot be chosen purely on personal preference, but needs to appeal to a wider appeal. You need to consider the following:
 >
-> - 这种风格应该被市场证实确实具有竞争力。不仅仅要有成功作品，还必须有大量成功作品。单一成功作品很可能仅仅是不可复制的偶然结果，也可能成功要素并不包括画面。另外，成功的趋势还要延续到现在。如果一种风格以前大量存在，现在不复存在，则很可能是因为它已经被市场竞争所淘汰，反而属于绝对不能进行的选择。
+> - The style must be proven as viable on the market. There need to be multiple successful works using this style active on the market. In addition, the usage of this style must be on the rise. A style in decline, fallen out of favour, or eliminated by market forces is an absolute no-go. 
 >
-> - 即使是有市场竞争力的风格，也还要考虑这个风格和载体的兼容程度。如果你做的是一个自由视角的3D游戏，这个画风就必须在所有可能的视角下都能够做到美观，而许多基于2D/静态的画风其实是做不到这点的。此外，也存在一些只能表现人物，甚至只能表现少量人物的画风，使用这样的风格就只能做做简单场景和低人物数量的箱庭解密或者换装游戏什么的，无法用来塑造一个正常的，有大量NPC和风貌的完整世界。为了满足这些要求，除了从已有游戏取材外，最合适的临近载体是**影视**。静态画册的美术风格许多都不太符合这个要求，或者不确定是否可以符合要求。
->
->   <br>
->
-> 大体上，可以将现有美术风格分为基于PBR技术手段的，代表者为迪斯尼动画的3D体系，以及基于用3D模拟2D手绘风格的三渲二体系。
->
-> （当然，还有纯写实，这是非常有价值的分类，但不在此次讨论范围内。写实的问题是“卷”。）
->
-> 迪斯尼的动画风格，由于作品一直都保持着合家欢的低龄特征，不太适合成人向作品。但其技术手段其实是可以应用于成人向作品的，典型的例子便是守望先锋，所以除了作品数量偏低外倒没什么问题。
->
-> 它的问题其实在于：它的绝大部分作品都是针对欧美的，亚洲较少使用这种风格的作品，因此创造符合亚洲人审美的作品的时候，参考就极少。最终幻想本来属于这个路线，但显然，他们自己都已经陷入了迷茫的死局之中，恰恰让人们对这个方向缺乏信心。
->
-> 中国自己探索的结果在我看也是基本失败的。就一句话：一个npr风格的作品，如果改成写实效果会更好，它就应该直接做成写实的，那它自身就失去了意义。国产许多游戏其实都更适合仿照电视剧风格做成纯写实的，一半写实一半不写实终究只是妥协后的中间阶段。
->
-> 当然，欧美风格亚洲人也是可以接受的，比如某大圣哪吒，况且如果全球发行这也不算劣势。但始终还是存在水土不服的问题，可参考的成人化作品不多也算是个缺点。
+> - Even for a competetive style, you need to consider compatablity with the game must be considered. If you're making a free-camera/view 3D game, the style must look good from all angles, which breaks a large number of 2D styles. Further, some styles are restricted to characterart and to expensive for large worlds using diverse landscapes with many NPCs, but can only be used for diorama puzzles or dress-up games. To meet these requirements, besides drawing inspiration from existing games, the most suitable adjacent medium are **film and television**. It's hard to evaluate for many illustration styles if they could meet the adorementioned requirements.
 >
 >   <br>
 >
-> 而另一个所谓的三渲二方向，大体来讲，基本就已经可以说成是日本卡通风格了。
+> Generally speaking, the existing styles can be split into two camps: PBR based on Disneys technlogy and 3D rendering which attempts to recreate 2D illustration. 
+> 
+> (There is also pure realism, which provides it's own value, but is beyond the scope of this discussion. The problem of realism is the increasing internal complexity without yielding (significantly) better output.) TN: [Meaning of “卷”](https://chinese.stackexchange.com/questions/52695/what-does-%E5%8D%B7-mean-in-%E5%BD%93%E4%BD%A0%E5%88%9A%E5%BC%80%E5%A7%8B%E6%83%B3%E5%8D%B7%E7%9A%84%E6%97%B6%E5%80%99) 
 >
-> 当然，2D动画并不是只有这样一个风格。就算不提欧美2D动画，一些类似简笔画的风格化作品也常常出现在游戏中。但问题是，那些并非主流，只进行少量传播的个人画风，我们很难确定它是否有着足够的广泛接受度，而更关键的是，它们往往缺乏影视方面的参考物。
+> Disney's style is not suited well for adult content due to it's constant use and association with family friendly content. Even so it's rendering technologies can be applied to adult content, "Overwatch" being a good example for this. Even with there only being a small number of successful production there is no real issue meeting the criteria of viablity. 
 >
-> 日式卡通风格在市场上经过了长时间的迭代，旧世代画风和现世代有着很大的“品质”上的区别，这种迭代的成果很难被认为是没有竞争力的。更关键的是，它的主要载体漫画和动画，都可以作为良好的游戏化参考，目前也有不少游戏化的例子可供参考。
+> The problem lies in the fact that most works in this style are aimed at an Amerian and European audience, while rarely used in Asia. There are few references adopting this style to suit asian preferences because of this. "Final Fantasy" originally belonged to this movement, but but it's clear they became befuddled and moved into a stylelistic dead-end.
+> 
+> In my Opinion, China's own explorations have largely failed. In summary: If any NPR-production would be better of with realistic rendering, it should just be realistic. Many domestic productions are better suited to pure realism emulating tv-dramas. Half-Realism/Half-Stylelized is ultimately an intermittent stop-gap.
 >
-> 日式卡通风格有着它独立的受众群，在其受众中自然是极好的。可问题是，即使你不打算针对这部分受众，考虑到参考物的多寡导致的创作难度，选择其他风格未必是优解。即使这个风格并不是为他们设计的，只要确实做的好，也不会觉得难看。而即使你针对用户选择画面风格，由于参考少，做出效果很难，未必能讨得欢心。
+> Asians could of course accept European and American themes like "Monkey King Nezha" (某大圣哪吒) without being a disadvantage for a global release. The issue of acclimatization and the lack of adult oriented media for reference remains.
 >
-> 总之，即使是针对非受众，日式卡通风格也都有它独有的优势。因此，对于受众，那还有什么可讨论的余地
+>   <br>
+>
+> The other direction can basically be described as 3D (japanese) Anime. 
+>
+> 2D animation is not bound to a single style. Even ignoring American and European animations, very simple styles often appear in games. The problem is however, that these niche styles are difficult to evaluate for mass-appeal. More importantly, they often lack film and television references.
+>
+> Anime has undergone a long period of itteration on the market. The quality of older and current styles differs significantly, making it difficult to dismiss the results of this as uncopmetetive. More importantly, it's primary mediums, Manga and Animation are excellent references for games with a wealth of references available.
+>
+> In conclusion, even outside the target audience, Anime has unique advantages. With that said, what room for discussion is there when it comes to the target audience? 
+> >(总之，即使是针对非受众，日式卡通风格也都有它独有的优势。因此，对于受众，那还有什么可讨论的余地
+TN: I am really not sure about this one.)
 >
 > <br>
 >
