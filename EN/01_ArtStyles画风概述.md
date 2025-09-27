@@ -201,31 +201,31 @@ TN: I am really not sure about this one.)
 >
 > <br>
 >
-> #### **“借物”的重要性**
+> #### **The Importance of "Borrowing"**
 >
-> 我上面这样强调“大量参考”这个概念，多半会让一些人觉得不适。他们可能会觉得：
+> My emphasis on "Borrowing" may make some people uncomfortable, they may feel that:
 >
-> 做没做过的事，虽然难，但那不是理所当然应该做的事吗？
+> Doing something you have never done before is difficult, but shouldn't that skill develop naturally?
 >
-> 甚至高喊：**“抄袭”是不道德的！**
+> Some even complainshouted "Plagiarism" is immoral!
 >
-> 那我可得说：这个游戏界“不道德”的事或许远比你想到的要更多。
+> On that I have to say, there may be more "immoral" things in the gaming world than you think. 
 >
->    <br>
+> <br>
 >
-> 最近流行的PBR，“基于物理真实的渲染，”它的优势是什么？
+> What are the advantages of "physically based rendering" which became popular recently?
 >
-> 是**产能**。同样的量和质，PBR的成本远低于原始方案，而且创作速度也更快。因此，在同样的成本和限定的工期下，可以做到更高的数量和质量。
+> *Productioncapacity*. PBR materials can be created to the same quality standard and quantity while requiring less time and ressources. Inversely, with the same time and cost investment a higher quality and quantity of models and materials can be created.
 >
-> 为什么成本低，速度快？
+> But why is it both faster and cheaper?
 >
-> 因为可以直接从现实中取材，而不需要靠人脑去创造。
+> Because PBR allows to directly use real life references without human intervention to create materials. 
 >
-> 刺客信条复原历史建筑，复原真实地形风貌，你认为它成本增加了吗？
+> Assasssins Creed restores historical buildings and authentic terrain features. Do you think the cost has increased?
 >
-> 从绝对值上，确实可能增加了。
+> In absolute terms, it may even have decreased.
 >
-> 但是假如对比物是：完全不参考现实，从零开始重新创作出和现在产品相同质量的成果。那成本毫无疑问是降低了，而且降低的不是一点半点。
+> But what if we're attempting to create a model completely from scratch, without any reference material from life, but with the same quality of existing products? The cost will go down significantly.
 >
 >   <br>
 >
