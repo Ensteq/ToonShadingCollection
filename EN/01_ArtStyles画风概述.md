@@ -223,114 +223,104 @@ TN: I am really not sure about this one.)
 >
 > Assasssins Creed restores historical buildings and authentic terrain features. Do you think the cost has increased?
 >
-> In absolute terms, it may even have decreased.
+> The overall cost may even went down.
 >
 > But what if we're attempting to create a model completely from scratch, without any reference material from life, but with the same quality of existing products? The cost will go down significantly.
 >
 >   <br>
 >
-> 所以说，PBR而能够降低成本，增加产能的根本原因，通俗来讲，其实就是**抄袭现实**。
+> The reason PBR can lower production cost and increase capacity is the **copying of reality**.
 >
-> “抄”这个词是避不开的。不通过“抄”，你就只能无限堆叠人力进行推量。而一个游戏实际成本其实基本是固定的，工期也没得商量，所以并不存在这个方法。
+> "Copying" is unavoidable. Without it you'd have to reinvent everything from scratch, every time. This is not feasible in practice as it'd require infinite manhours. Whereas the cost of a game is effectively fixed and productiontimelines hardly negotiable. As such, copying becomes a necessary requirement as the alternatives are not workable.
 >
-> 你在固定成本下还想进行高质量的创作，其实只有两个方法：
+> To achieve a high level of polish at a fixed cost there are two options:
 >
-> 1. 天降猛男。指望招募到几个实际价值能够以一顶百的高水平的创作者，然后只用三千块钱就帮你干活。这样你就能省下钱和时间来，去生产更多的内容。
->2. 抄。
+> 1. Find a few savants who're happy to work on a shoestring budget and pull the weight of an entire team each. 
+>2. Copy.
 > 
 >   <br>
 >
-> NPR领域自然无法“抄袭”现实，而最接近的代替方案，就是找已有的成体系的作品来代替现实锚点。所以，你选择的方向，可“抄”的内容数量越多，质量越高，你同样条件下创作出的内容就会越好。
+> NPR fundamentally cannot copy Reality the same way PBR can, virtue of being stylelized. The best alternative is to find systematic workflows mimicing those in PBR pipelines. The more you can copy in terms of approach without reinventing things, the higher the quality of the result investing the same time and effort.
 >
-> 这还没有考虑人才市场的问题。
+> This does not take into account the talent market.
 >
-> 这里再强调一次，并不是说日式卡通比其他风格要好，也很可能并不符合你的目标受众的喜好。确实可能有很多人喜欢那些半写实半卡通的奇怪玩意儿，也可能它确实才是你的受众“审美”的终点。
+> Again, this is not to elevate japanese Anime above other approaches. It may even put of parts of your target audience, which prefers semirealistic styles that are outside your own preference. And you have to orient yourself around your audiences preference at the end of the day.
 >
-> 可问题是，如果你真的要做那些，世界上基本就没出现过的全新的“先端”风格。你怎么证明自己做的是对的？即使你能够做到正确的判断，具体实现中所需要付出的探索成本，也会计入到你的总成本内，最终拖累产出，影响质量。质量如果低了，甚至干脆做不出来，就算方向正确又能如何？
+> But what If you really want to aim for a genuinely "new" style? How do you prove that it has a chance for success? Even if you make the right call, the exploration cost and delays in production will likely yield a worse result overall. If the quality suffers or the project can’t be completed at all, what good is it that the direction was right in the first place?
 >
-> 而且，日式卡通还有个非常重要的优势：它本身就有大量现成的影视作品可供参考，而影视是最容易转移到游戏里来的形式。PBR之所以能够大幅降低成本，也和它无脑沿用影视行业的现成成果有非常大的关系。
+> Anime has another important advantage, which is a large body of works in TV and Cinema for reference, which are the easiest to translate into games. The reason PBR can greatly reduce cost is it's ability to easily reuse processes from the movie and TV industries.
 >
-> 这方面能够和日式卡通相比的也就迪士尼3D动画了。
+> Here, Disney-Style 3D animation can be compared to japanese Animation.
 >
-> 其他没有影视作品背书的作品，首先就要解决“影视化”问题，需要将这个探索过程重新走一遍。而游戏化其实还需要解决实时渲染的问题。这些问题，没有一个是容易完成的，甚至，有可能是无法完成的。
+> Other works, which have not yet been adapted to TV or Movie need to first complete this exploration process. In addition to this, games need to adapt the rendering techniques to run them in realtime. None of these tasks are easy to accomplish or may even be impossible.
 >
 >   <br>
 >
-> #### **赛璐璐，死不掉**
+> #### **Celshading never dies**
 >
 > 所以我上面说那么多是为了证实选择“日式卡通”这个方向的合理性吗？
+> Did I say all of the above with the sole intend of proving that "anime" is the right stylistic choice?
 >
-> 不，如果你已经选择了要做这方面的产品，这本来就是一个不需要讨论的问题。
+> No. If you decided to create a product in this area, this is not even worth being discussed. 
 >
-> 我要表达的是，如果按上面的逻辑，考虑到参考物的多寡，考虑到影视化，乃至游戏化的程度。
+> What I mean is, following the reasoning above, while taking into account the abundance of references and ease to adapt it into games, 
+> 
+> **that you're stuck with celshading.**
 >
-> **你好像只能做赛璐璐。**
->
-> 毕竟动画都是赛璐璐的啊。不做赛璐璐，说不定还不如选择所谓的国产3D呢，起码有过影视作品。
->
->   <br>
->
-> 然后你说，干嘛纠结影视呢？直接一步到位到游戏不好吗？不也有好多没有对应风格的影视作品，效果也还不错的游戏出现了吗？
->
-> 然后你回想下，这些游戏里，是不是有很多都是固定视角或者俯视角的游戏，而且人物距离摄像机的距离都特远。
->
-> 它们存在自由视角，电影式过场吗？
->
-> 里面有人类吗？有不同年龄层的人吗？有不同性别的人吗？
->
-> 有室外吗？有白天吗？有正常的场景吗？
->
-> 而你要做的游戏是否需要这样的东西？
+> Animation itself is celshaded after all. If you don't aim for celshading, you're probably better of aiming for PBR, as it has an abundance of references to draw from.
 >
 >   <br>
 >
-> 当然，认真想一下的话，其实还是有的。但这些作品的画风，也完全可以做出一部合格的动画了。他们确实凭借自己的能力，独自完成了画风的影视化和游戏化，是值得尊敬的。
+> You may ask, why bother with movie references at all? Why not use games directly? Aren't there plenty of games with styles which do not have a matching counterpart in film? 
 >
-> 但是你打算抄那个画风吗？（是否觉得能达到你的要求？）
+> Think about it for a moment. Aren't a lot of those games fixed in perspective with a character far removed from the camera?
 >
-> 不想抄的话，你能自己做到吗？
+> Did they have a free moving camera or cinematic cutscenes?
+>
+> Did they use human characters? Different demographics? Different genders?
+>
+> Outdoor settings? Daytime scenes? Everyday environments?
+>
+> Does your project require any of these tings?
+>
+>   <br>
+>
+> There are of course games which managed to pull this off. However, their artstyles were already strong from the outset to make an animated feature with them. They did, with their own ability, complete both the cinematization and gamification of their style, which deserves huge respect.
+>
+> But do you intent on copying that style? (Will it even suit your projects needs?)
+>
+> If not, can you achieve the same success on your own?
 >
 >  <br>
 >
-> #### **猎魔人选择**
+> #### **A choice for the Witcher**
 >
-> 但是赛璐璐又不行。
+> But Celshading isn't an option either.
 >
-> 也就是说，现在我们面前的是一个双坏选择。你需要在里面随便选一个。
+> We have to pick between two bad options. 
 >
-> 要不就选择赛璐璐赛道，和米哈游和将来必定会出现的100个幻塔竞争。为了生存，你需要拥有足够的实力。有实力，一切都不是问题。
+> Pick the Celshading route and you're in immediate competition with MiHoYo and the endless fantasy towers which will appear in the future. If your work is strong enough to compete with them, this will not be a problem. 
 >
-> 无非，就是退回写实的“终极卷”状态罢了。那么多公司，不一样活下来了。决定游戏的又不光是画风。画风和别人一样，靠其他方面进行竞争不就好了。
+> Worst case you just fall back on hyper realism. Plenty of companies did that. A game isn't made from artstyle alone after all. If your art is similar, compete in different areas of the game. You need a strong product in order to have a competetive advantage, carried by many different aspects of the game. A competetive advantage you usually do not have.
+> 
+> <br>
 >
-> 当前，前提是，你得有实力，还要有其他可竞争的方面。通常你是没有的。
+> The other option is to explore new styles, given that the weakness of celshading is the homogenization of the different styles. As long as you keep the deviations reaonable you might be able to be just different enough while staying within the alotted budget.
 >
->   <br>
+> Instead of establishing a completely new style, you may start from a point close to celshading and make incremental improvements, similar to how the japanese anime industry is evolving it's technology in recent years. 
 >
-> 而另一个选择就是去探索新的风格。毕竟赛璐璐的缺陷是同质化，只要做到“不完全相似”就好了。只是做少量的改动，其附加探索成本还在可控范围内。
->
-> 也就是说，不重新去游戏化“厚涂”风格，而只是选择一些比较接近赛璐璐的插画画风作为参考，并对先有的赛璐璐风格做出改进，就和日本动画这些年来通过CG技术不断在进行的改进类似。
->
-> 这在我看是相对比较“风险均衡”的方案。
+> This is in my opinion the best option in terms of "risk balance".
 >
 >   <br>
 >
-> 然而，这样做的实际结果很可能只是从4到5的转变。
+> However, the adjustments made may only take you from 4 to 5.
 >
 > ![CH01_05_ArtStyleComparism](../imgs/CH01_05_ArtStyleComparism.jpg)
 >
-> 其实除此之外还是可以做出不少改变的。但是改变越多，探索成本越高。
+> There are a lot more changes which could be made, but each of them comes with it's own pricetag and risk attached.
 >
-> 动画现在的很多技法也可以搬运到游戏里来，但这个大家都在做，你本来就也要跟着做，这依然还是在赛璐璐里卷。
+> Many of the contemprary anime techniques can be adopted into games. However, everyone is already doing this, which still means to compete within the celshading aesthetic. 
 >
-> 我只能说，卷就卷吧。
+> If it's competition, so be it.
 >
-> 赛璐璐死不死得了另说，模拟“剧场动画”这条路大家都在走的路，你恐怕还真的跑不掉。
-
-
-
-
-
-
-
-
-
+> Whether celshading ultimately survives or not is another topic, but you'll not get around imitating "theatrical animation", the same as everyone else.
